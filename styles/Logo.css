@@ -1,0 +1,15 @@
+.logo-wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-top: -5em;
+}
+
+.word {
+    @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+    font-family: 'Righteous', cursive;
+    background-image: linear-gradient(to bottom, #f15b74, #ff6021);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 4em;
+}
