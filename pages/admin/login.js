@@ -1,6 +1,9 @@
-import { Component } from "react";
+import React, { Component } from "react"
 import Head from 'next/head'
-import { POST_METHOD } from '../../constants/Request'
+import { connect } from 'react-redux'
+import { login } from '../../store/actions/AuthActions'
+// import initialize from '../../utils/initialize'
+
 import Logo from '../../components/Company/Logo'
 import "../../styles/Login.css"
 import "../../styles/Index.css"
@@ -15,22 +18,13 @@ class Login extends Component {
 
     handleInputChange = event => {
         this.setState({[event.target.id]:event.target.value});
+        console.log(this.props)
     }
 
     handleFormSubmit = event => {
         event.preventDefault()
         const param = {...this.state}
-        const signin = async () => {
-            const request = await fetch('http://localhost:1111/api/auth/login', {
-                method: POST_METHOD,
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(param)
-            })
-            const response = await request.json()
-            console.log(response)
-            return response
-        }
-        signin();
+        this.props.login(param);
     }
 
     render() {
@@ -73,4 +67,17 @@ class Login extends Component {
 
 }
 
-export default Login
+const mapStateToProps = state => {
+    return { 
+        auth : state.authentification,
+        config : state.config
+     }
+}
+
+const mapDispatchToProps = dispatch => {
+    return {
+        login : creds => dispatch(login(creds))
+    }
+}
+
+export default connect(mapStateToProps, mapDispatchToProps)(Login);
