@@ -1,8 +1,10 @@
 import Navmenu from '../Navigation/Navmenu'
-import '../../styles/Navbar.css'
+import Logo from 'components/Company/Logo'
+import 'styles/Navbar.css'
 
 const Navbar = () => (
-    <nav className="navbar">
+    <nav className="navbar d-flex">
+        <Logo />
         <Navmenu />
     </nav>
 )

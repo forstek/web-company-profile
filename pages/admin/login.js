@@ -1,13 +1,14 @@
 import React, { Component } from "react"
+// import initialize from 'utils/initialize'
+import Router from 'next/router';
 import Head from 'next/head'
 import { connect } from 'react-redux'
-import { login } from '../../store/actions/AuthActions'
-// import initialize from '../../utils/initialize'
+import { login } from 'store/actions/AuthActions'
 
-import Logo from '../../components/Company/Logo'
-import "../../styles/Login.css"
-import "../../styles/Index.css"
-import "../../styles/Color.css"
+import Logo from 'components/Company/Logo'
+import "styles/Login.css"
+import "styles/Index.css"
+import "styles/Color.css"
 
 class Login extends Component {
 
@@ -16,18 +17,27 @@ class Login extends Component {
         password : null
     }
 
+    // static getInitialProps(ctx) {
+    //     initialize(ctx);
+    // }
+
     handleInputChange = event => {
-        this.setState({[event.target.id]:event.target.value});
-        console.log(this.props)
+        this.setState({[event.target.id]:event.target.value})
     }
 
     handleFormSubmit = event => {
         event.preventDefault()
         const param = {...this.state}
-        this.props.login(param);
+        this.props.login(param)
     }
 
+    // componentDidMount() {
+    //     const { isLoggedIn } = this.props.auth
+    //     if ( isLoggedIn ) Router.push("/admin/dashboard")
+    // }
+
     render() {
+
         return (
             <div className="login">
                 <Head>
@@ -80,4 +90,5 @@ const mapDispatchToProps = dispatch => {
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Login);
+// export default connect(mapStateToProps, mapDispatchToProps)(Login);
+export default Login;

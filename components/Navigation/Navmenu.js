@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
 const Navmenu = () => (
-    <ul className="navbar-nav flex-row mx-auto">
+    <ul className="navbar-nav flex-row">
         <li className="nav-item active mx-2">
             <Link href="/">
                 <a className="nav-link c-primary font-weight-bold">Home</a>
