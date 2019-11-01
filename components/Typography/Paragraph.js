@@ -10,7 +10,7 @@ const Styled = styled.p`
 
 const Paragraph = (props) => (
 
-    <Styled {...props}>{props.children}</Styled>
+  <Styled {...props}>{props.children}</Styled>
 
 )
 
