@@ -29,10 +29,10 @@ height:100%;
 
 `
 
-const ResponsiveFlex = (props) => {
+const ResponsiveFlex = ({ children, ...others }) => {
   return (
-    <Element {...props}>
-      {props.children}
+    <Element {...others}>
+      {children}
     </Element>
 
   )
