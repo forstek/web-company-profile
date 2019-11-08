@@ -15,14 +15,13 @@ ${props => props.link ? ' cursor: pointer;' : ''}
 export const Item = (props) => {
   return (
     <li>
-      {props.link ? 
-        ( 
+      {props.link
+        ? (
           <Link href={props.link}>
             <ItemElement>{props.text}</ItemElement>
-          </Link> 
+          </Link>
         )
-        : <ItemElement>{props.text}</ItemElement>
-      }
+        : <ItemElement>{props.text}</ItemElement>}
     </li>
   )
 }
