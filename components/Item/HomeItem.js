@@ -24,17 +24,15 @@ const Description = styled.p`
 `
 
 const HomeItem = (props) => {
-
-    return (
-        <Flexbox horizontal="center" equal>
-            <Icon src={props.icon} alt="Item"/>
-            <div>
-                <Number>{props.number} / <Title>{props.title}</Title></Number>
-                <Description>{props.children}</Description>
-            </div>
-        </Flexbox>
-    )
-
+  return (
+    <Flexbox horizontal='center' equal>
+      <Icon src={props.icon} alt='Item' />
+      <div>
+        <Number>{props.number} / <Title>{props.title}</Title></Number>
+        <Description>{props.children}</Description>
+      </div>
+    </Flexbox>
+  )
 }
 
 export default HomeItem
