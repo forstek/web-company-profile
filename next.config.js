@@ -11,10 +11,16 @@ module.exports = withCSS({
   //     importLoaders: 1,
   //     localIdentName: "[local]___[hash:base64:5]",
   // },
-  webpack (config, options) {
+  webpack(config, options) {
     config.module.rules.push({
       test: /\.(png|jpg|gif|svg|eot|ttf|woff|woff2)$/,
-      use: ['@svgr/webpack']
+      // use: ['@svgr/webpack']
+      use: {
+        loader: 'url-loader',
+        options: {
+          limit: 100000
+        }
+      }
     })
     config.resolve.alias = {
       styles: path.resolve(__dirname, 'styles'),
