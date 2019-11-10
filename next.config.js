@@ -23,12 +23,13 @@ module.exports = withCSS({
       }
     })
     config.resolve.alias = {
-      styles: path.resolve(__dirname, 'styles'),
       components: path.resolve(__dirname, 'components'),
-      store: path.resolve(__dirname, 'store'),
-      utils: path.resolve(__dirname, 'utils'),
+      constants: path.resolve(__dirname, 'constants'),
+      fonts: path.resolve(__dirname, 'public/static/fonts'),
       images: path.resolve(__dirname, 'public/static/images'),
-      fonts: path.resolve(__dirname, 'public/static/fonts')
+      styles: path.resolve(__dirname, 'styles'),
+      store: path.resolve(__dirname, 'store'),
+      utils: path.resolve(__dirname, 'utils')
     }
     return config
   }

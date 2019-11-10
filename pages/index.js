@@ -10,6 +10,7 @@ import TextArea from 'components/Input/TextArea'
 import Flexbox from 'components/Flexbox/Flexbox'
 import ResponsiveFlex from 'components/Flexbox/ResponsiveFlex'
 import Footer from 'components/Layout/Footer'
+import { OrangeText } from 'components'
 
 const Section = styled.div`
   width:100%;
@@ -20,15 +21,15 @@ const Section = styled.div`
 `
 
 const Index = () => (
-
   <Layout>
     <Section style={{ minHeight: '500px' }}>
       <Flexbox direction='row' horizontal='between' vertical='center'>
         <Flexbox direction='column' horizontal='center' vertical='center'>
-          <Paragraph style={{ fontSize: '1.5rem' }}> We know you have idea, and
-            <br /> We know that build your idea takes
-            <br /> a lot of time and energy, so
-            <br /> We here to help you!
+          <Paragraph style={{ fontSize: '1.5rem' }}>
+            We know you have <OrangeText text='idea' />,
+            <br /> We understand building your idea
+            <br /> takes a lot of <OrangeText text='time' /> and <OrangeText text='energy' />, so
+            <br /> We are here to <OrangeText text='help' /> you!
           </Paragraph>
           <BasicButton primary round text="Let's get started" style={{ display: 'block', margin: 'auto' }} />
         </Flexbox>
@@ -42,7 +43,9 @@ const Index = () => (
         <HomeItem icon='static/images/calendar.svg' number='01' title='reliability'>
           Many inexperience and unreliable freelancers out there, but the best talents are with us.
         </HomeItem>
-        <HomeItem icon='static/images/checking.svg' number='02' title='time saving'>
+        <HomeItem
+          icon='static/images/checking.svg' number='02' title='time saving'
+        >
           You do not have to worry about doing interview and other time consuming of recruiting process, we have done it for you.
         </HomeItem>
         <HomeItem icon='static/images/reliability.svg' number='03' title='quality'>
@@ -90,7 +93,6 @@ const Index = () => (
       <Footer />
     </Section>
   </Layout>
-
 )
 
 export default Index

@@ -10,7 +10,13 @@ width:100%;
 const TextInput = (props) => {
   return (
     <Wrapper {...props}>
-      <input className='form-control' type={props.type} id={props.id} name={props.id} placeholder={props.label} />
+      <input
+        className='form-control'
+        type={props.type}
+        id={props.id}
+        name={props.id}
+        placeholder={props.label}
+      />
     </Wrapper>
   )
 }

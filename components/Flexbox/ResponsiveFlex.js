@@ -34,7 +34,6 @@ const ResponsiveFlex = ({ children, ...others }) => {
     <Element {...others}>
       {children}
     </Element>
-
   )
 }
 
