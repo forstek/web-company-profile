@@ -1,4 +1,4 @@
-import * as constants from './constans'
+import * as constants from './constants'
 
 const setWidth = (size) => {
   switch (size) {

@@ -4,21 +4,20 @@ import Flexbox from 'components/Flexbox/Flexbox'
 import { FaExternalLinkAlt } from 'react-icons/fa'
 
 const Thumbnail = styled.img`
-width:100%;
-border-radius: 6px;
-box-shadow: 0px 6px 10px rgba(96, 125, 139, 0.25);
+  width:100%;
+  border-radius: 6px;
+  box-shadow: 0px 6px 10px rgba(96, 125, 139, 0.25);
 `
 
 const Name = styled.p`
-color:#323232;
-font-size:16px;
-font-weight:bold;
-margin-bottom: 0;
-flex:1;
+  color:#323232;
+  font-size:16px;
+  font-weight:bold;
+  margin-bottom: 0;
+  flex:1;
 `
 
 const Project = (props) => (
-
   <Flexbox direction='column' style={{ marginBottom: '25px' }}>
     <Thumbnail src={props.src} alt='Project 1' />
     <Flexbox className='mt-2 w-100 px-0' direction='row' vertical='center' equal>
@@ -31,7 +30,6 @@ const Project = (props) => (
       </Link>
     </Flexbox>
   </Flexbox>
-
 )
 
 export default Project
