@@ -6,6 +6,7 @@ import { VerticalList, Item } from 'components/List/VerticalList'
 
 const Description = styled.p`
 font-size: 14px;
+margin-top: 14px;
 margin-bottom: 0;
 color: #888888;
 `
@@ -13,12 +14,12 @@ color: #888888;
 const Footer = () => {
   return (
     <ResponsiveFlex breakPoint='250px' maxItem='4'>
-      <Flexbox direction='column'>
+      <Flexbox direction='column' vertical='center' style={{ marginBottom: '24px'}}>
         <Logo />
-        <Description>We help startups craft best product, We understand building startup is hard, time consuming, and need quite a lot of money.</Description>
+        <Description>Help startups craft best products</Description>
       </Flexbox>
       <VerticalList title='contact us'>
-        <Item text='+6222 8392384' />
+        <Item text='+62 813 2403 5623' />
         <Item text='contact@forstek.co' />
         <Item text='Topindo Buah Batu Residence II No.14, Bandung' />
       </VerticalList>

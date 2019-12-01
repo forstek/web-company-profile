@@ -5,7 +5,7 @@ const Styled = styled.p`
         @import url('static/fonts/segoe-ui/segoe-ui-semilight.ttf');
         font-family: 'Segoe UI';
         color: #323232;
-        text-align: center;
+        text-align: ${props => props.align || 'center'};
     `
 
 const Paragraph = (props) => (

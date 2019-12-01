@@ -1,5 +1,5 @@
 {
-  "name": "forstek-next",
+  "name": "forstek-web",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start"
   },
-  "author": "",
+  "author": "forstek",
   "license": "ISC",
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "^15.0.0",
@@ -36,7 +36,8 @@
     "babel-eslint": "^10.0.3",
     "babel-plugin-styled-components": "^1.10.6",
     "husky": "^3.0.9",
-    "standard": "^14.3.1"
+    "standard": "^14.3.1",
+    "url-loader": "^3.0.0"
   },
   "husky": {
     "hooks": {

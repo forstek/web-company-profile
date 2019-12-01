@@ -5,6 +5,7 @@ export const Container = styled.div`
     width:${props => props.actualWidth};
     height: ${props => props.actualHeight};
     overflow: hidden;
+    border-radius: 4px;
     /* background: ${props => props.background} */
 `
 

@@ -19,12 +19,14 @@ flex-direction: row;
 flex-wrap: wrap;
 align-items: ${props => setVerticalAlign(props.vertical)};
 justify-content: center;
+// margin: 0 48px;
 height:100%;
 
 & > * { 
   min-width: ${props => props.breakPoint};
   max-width: ${props => props.maxItem ? `calc(100% / ${props.maxItem})` : props.breakPoint};
   flex: 1 0 ${props => props.breakPoint};
+  margin: 12px;
 }
 
 `
