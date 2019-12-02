@@ -14,7 +14,7 @@ color: #888888;
 const Footer = () => {
   return (
     <ResponsiveFlex breakPoint='250px' maxItem='4'>
-      <Flexbox direction='column' vertical='center' style={{ marginBottom: '24px'}}>
+      <Flexbox direction='column' vertical='center' style={{ marginBottom: '24px' }}>
         <Logo />
         <Description>Help startups craft best products</Description>
       </Flexbox>
@@ -24,16 +24,15 @@ const Footer = () => {
         <Item text='Topindo Buah Batu Residence II No.14, Bandung' />
       </VerticalList>
       <VerticalList title='company'>
-        <Item link='/about' text='About' />
-        <Item link='/project' text='Project' />
-        <Item link='/blog' text='Blog' />
-        <Item link='/career' text='Career' />
+        <Item link='/' text='About' />
+        <Item link='/' text='Project' />
+        <Item link='/' text='Blog' />
+        <Item link='/' text='Career' />
       </VerticalList>
       <VerticalList title='information'>
-        <Item link='/terms' text='Terms & Conditions' />
-        <Item link='/user-guide' text='User Guide' />
-        <Item link='/support' text='Support Center' />
-        <Item link='/press' text='Press Info' />
+        <Item link='/' text='Terms & Conditions' />
+        <Item link='/' text='Support Center' />
+        <Item link='/' text='Press Info' />
       </VerticalList>
     </ResponsiveFlex>
   )

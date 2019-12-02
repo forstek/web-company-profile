@@ -4,7 +4,7 @@ import 'styles/Navbar.css'
 
 const Navbar = () => (
   <nav className='navbar d-flex'>
-    <Logo size='large'/>
+    <Logo size='large' />
     <Navmenu />
   </nav>
 )
