@@ -1,4 +1,4 @@
-import Link from 'next/link'
+// import Link from 'next/link'
 import styled from 'styled-components'
 import Flexbox from 'components/Flexbox/Flexbox'
 import { FaExternalLinkAlt } from 'react-icons/fa'
@@ -11,7 +11,7 @@ const Thumbnail = styled.img`
 
 const Name = styled.p`
   color:#323232;
-  font-size:16px;
+  font-size:14px;
   font-weight:bold;
   margin-bottom: 0;
   flex:1;
@@ -22,12 +22,12 @@ const Project = (props) => (
     <Thumbnail src={props.src} alt='Project 1' />
     <Flexbox className='mt-2 w-100 px-0' direction='row' vertical='center' equal>
       <Name>{props.name}</Name>
-      <Link href='/'>
+      <a href={props.link} target='_blank' rel='noopener noreferrer'>
         <a className='nav-link c-primary font-weight-bold px-0' target='_blank' style={{ color: '#fc6f20' }}>
           <FaExternalLinkAlt />
           <p className='ml-2 mb-0 d-inline-block'>View</p>
         </a>
-      </Link>
+      </a>
     </Flexbox>
   </Flexbox>
 )

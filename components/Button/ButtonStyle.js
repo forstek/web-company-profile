@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 import { darken } from 'polished'
+import { purple } from 'constants/color'
 
 export const BasicButton = styled.button`
-  background: ${props => props.primary ? '#FC6F20' : '#FFFFFF'};
+  background: ${props => props.primary ? purple : '#FFFFFF'};
   border: ${props => props.primary ? 'none' : '1px solid #323232'};
   width: 185px;
   height: 55px;
@@ -12,12 +13,12 @@ export const BasicButton = styled.button`
   outline: none;
 
   &:hover {
-    background: ${props => props.primary ? darken(0.1, '#FC6F20') : '#323232'};
+    background: ${props => props.primary ? darken(0.1, purple) : '#323232'};
     color: white;
   }
 
   &:active {
-    background: ${props => props.primary ? darken(0.15, '#FC6F20') : darken(0.15, '#323232')};
+    background: ${props => props.primary ? darken(0.15, purple) : darken(0.15, '#323232')};
     outline: none;
   }
 `

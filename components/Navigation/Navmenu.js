@@ -8,23 +8,18 @@ const Navmenu = () => (
       </Link>
     </li>
     <li className='nav-item active mx-2'>
-      <Link href='/about'>
-        <a className='nav-link c-primary font-weight-bold'>About</a>
-      </Link>
-    </li>
-    <li className='nav-item active mx-2'>
-      <Link href='/about'>
+      <Link href='/'>
         <a className='nav-link c-primary font-weight-bold'>Project</a>
       </Link>
     </li>
     <li className='nav-item active mx-2'>
-      <Link href='/career'>
+      <Link href='/'>
         <a className='nav-link c-primary font-weight-bold'>Blog</a>
       </Link>
     </li>
     <li className='nav-item active mx-2'>
-      <Link href='/contact'>
-        <a className='nav-link c-primary font-weight-bold'>Contact</a>
+      <Link href='/'>
+        <a className='nav-link c-primary font-weight-bold'>Career</a>
       </Link>
     </li>
   </ul>

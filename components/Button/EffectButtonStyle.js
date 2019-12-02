@@ -4,7 +4,10 @@ import { darken } from 'polished'
 export const Container = styled.div`
     width:${props => props.actualWidth};
     height: ${props => props.actualHeight};
+    font-weight: 'bold';
     overflow: hidden;
+    border-radius: 4px;
+    margin: 0 10px;
     /* background: ${props => props.background} */
 `
 

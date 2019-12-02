@@ -6,7 +6,7 @@ import {
 } from './EffectButtonStyle'
 
 const EffectButton = (props) => {
-  const { width, height, background, text } = props
+  const { width, height, background, children } = props
   const actualWidth = `${width}px`
   const actualHeight = `${height}px`
   const halfWidth = `${width / 2}px`
@@ -28,7 +28,7 @@ const EffectButton = (props) => {
             front
             halfWidth={halfWidth}
           >
-            {text}
+            {children}
           </CubeChild>
 
           <CubeChild
@@ -38,7 +38,7 @@ const EffectButton = (props) => {
             halfWidth={halfWidth}
             halfHeight={halfHeight}
           >
-            {text}
+            {children}
           </CubeChild>
 
           <CubeChild
@@ -48,21 +48,21 @@ const EffectButton = (props) => {
             halfWidth={halfWidth}
             halfHeight={halfHeight}
           >
-            {text}
+            {children}
           </CubeChild>
 
           <CubeChild
             right
             halfWidth={halfWidth}
           >
-            {text}
+            {children}
           </CubeChild>
 
           <CubeChild
             left
             halfWidth={halfWidth}
           >
-            {text}
+            {children}
           </CubeChild>
 
         </CubeWrapper>

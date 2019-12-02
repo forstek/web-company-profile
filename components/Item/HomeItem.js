@@ -9,7 +9,11 @@ const Icon = styled.img`
 const Number = styled.p`
   font-weight: 300;
   color: #323232;
-  margin-bottom:0;
+  margin-bottom: 8px;
+`
+
+const Bold = styled.span`
+  font-weight: bold !important;
 `
 
 const Title = styled.span`
@@ -21,14 +25,15 @@ const Title = styled.span`
 
 const Description = styled.p`
   font-size:14px;
+  line-height: 1.6;
 `
 
 const HomeItem = (props) => {
   return (
-    <Flexbox horizontal='center' equal>
+    <Flexbox horizontal='center' equal style={{ marginBottom: '24px' }}>
       <Icon src={props.icon} alt='Item' />
       <div>
-        <Number>{props.number} / <Title>{props.title}</Title></Number>
+        <Number><Bold>{props.number}</Bold> / <Title>{props.title}</Title></Number>
         <Description>{props.children}</Description>
       </div>
     </Flexbox>
