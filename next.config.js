@@ -1,7 +1,7 @@
 const withCSS = require('@zeit/next-css')
 const path = require('path')
 
-module.exports = withCSS({
+const customConfig = withCSS({
   onDemandEntries: {
     maxInactiveAge: 25 * 1000,
     pagesBufferLength: 2
@@ -23,6 +23,7 @@ module.exports = withCSS({
       }
     })
     config.resolve.alias = {
+      ...config.resolve.alias,
       components: path.resolve(__dirname, 'components'),
       constants: path.resolve(__dirname, 'constants'),
       fonts: path.resolve(__dirname, 'public/static/fonts'),
@@ -34,3 +35,8 @@ module.exports = withCSS({
     return config
   }
 })
+
+module.exports = {
+  ...customConfig,
+  distDir: 'build'
+}
