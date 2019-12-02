@@ -38,5 +38,5 @@ const customConfig = withCSS({
 
 module.exports = {
   ...customConfig,
-  distDir: 'build'
+  target: 'serverless'
 }
