@@ -28,12 +28,12 @@ export const CubeChild = styled.div`
     text-align:center;
     color: white;
     ${props => {
-        if (props.front) return `transform: rotateY(0deg) translateZ(${props.halfWidth});`
-        else if (props.top) return `transform: rotateX( 90deg) translateZ(${props.halfHeight}) translateY(${props.width / 2 - props.height / 2}px);`
-        else if (props.bottom) return `transform: rotateX(-90deg) translateZ(${props.halfHeight}) translateY(-${props.width / 2 - props.height / 2}px);`
-        else if (props.right) return `transform: rotateY( 90deg) translateZ(${props.halfWidth});`
-        else if (props.left) return `transform: rotateY(-90deg) translateZ(${props.halfWidth});`
-    }}
+    if (props.front) return `transform: rotateY(0deg) translateZ(${props.halfWidth});`
+    else if (props.top) return `transform: rotateX( 90deg) translateZ(${props.halfHeight}) translateY(${props.width / 2 - props.height / 2}px);`
+    else if (props.bottom) return `transform: rotateX(-90deg) translateZ(${props.halfHeight}) translateY(-${props.width / 2 - props.height / 2}px);`
+    else if (props.right) return `transform: rotateY( 90deg) translateZ(${props.halfWidth});`
+    else if (props.left) return `transform: rotateY(-90deg) translateZ(${props.halfWidth});`
+  }}
 `
 
 export const CubeWrapper = styled.div`
