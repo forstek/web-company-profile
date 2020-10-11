@@ -20,7 +20,7 @@ const Footer = () => {
       </Flexbox>
       <VerticalList title='contact us'>
         <Item text='+62 813 2403 5623' />
-        <Item text='contact@forstek.co' />
+        <Item text='forstek.co@gmail.com' />
         <Item text='Topindo Buah Batu Residence II No.14, Bandung' />
       </VerticalList>
       <VerticalList title='company'>
