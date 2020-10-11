@@ -185,7 +185,7 @@ const Index = () => (
           </a>
         </Flexbox>
         <Flexbox horizontal='center'>
-          <a href='mailto: contact@forstek.co?subject=Inquiry&body=Hi%20Forstek%2C%20%0A%0AI%20am%20interested%20in%20working%20together%20with%20you.%20I%20want%20to%20make%20...'>
+          <a href='mailto: forstek.co@gmail.com?subject=Inquiry&body=Hi%20Forstek%2C%20%0A%0AI%20am%20interested%20in%20working%20together%20with%20you.%20I%20want%20to%20make%20...'>
             <EffectButton width={200} height={55} background={purple}>
               <FaRegEnvelope style={{ fontSize: '1.6rem', marginRight: '8px', display: 'inline-block' }} />
               <span>email us</span>
