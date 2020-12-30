@@ -8,7 +8,7 @@ const GuestLayout = (props) => (
     <Head>
       <title>{props.title} | Forstek</title>
       <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css' />
-      <link rel='shortcut icon' type='image/x-icon' href='/static/images/favicon.png' />
+      <link rel='shortcut icon' type='image/x-icon' href='/static/images/favicon_orange.png' />
     </Head>
     <div className='container'>
       <Navbar />
