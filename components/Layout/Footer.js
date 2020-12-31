@@ -19,9 +19,9 @@ const Footer = () => {
         <Description>Help startups craft best products</Description>
       </Flexbox>
       <VerticalList title='contact us'>
-        <Item text='+62 813 2403 5623' />
+        {/* <Item text='+62 813 2403 5623' /> */}
         <Item text='forstek.co@gmail.com' />
-        <Item text='Topindo Buah Batu Residence II No.14, Bandung' />
+        <Item text='Jl. Nitiuda, By Pass Raya VII, Bandarlampung, Indonesia' />
       </VerticalList>
       <VerticalList title='company'>
         <Item link='/' text='About' />

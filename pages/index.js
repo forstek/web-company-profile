@@ -13,7 +13,11 @@ import ResponsiveFlex from 'components/Flexbox/ResponsiveFlex'
 import Footer from 'components/Layout/Footer'
 import { OrangeText } from 'components'
 import { purple } from 'constants/color'
-import { FaPhone, FaRegEnvelope, FaWhatsapp } from 'react-icons/fa'
+import { 
+  // FaPhone, 
+  FaRegEnvelope, 
+  // FaWhatsapp 
+} from 'react-icons/fa'
 
 const Section = styled.div`
   width:100%;
@@ -167,7 +171,7 @@ const Index = () => (
           <TextInput className='mt-3' type='email' id='email' label='email' />
           <TextArea className='mt-3' id='email' label='message' />
           <BasicButton primary round text='Submit' className='mr-auto mt-3 d-block' />
-        </Flexbox> */}
+        </Flexbox>
         <Flexbox horizontal='center'>
           <a href='tel:+6281324035623'>
             <EffectButton width={200} height={55} background={purple}>
@@ -183,7 +187,7 @@ const Index = () => (
               <span>message us</span>
             </EffectButton>
           </a>
-        </Flexbox>
+        </Flexbox> */}
         <Flexbox horizontal='center'>
           <a href='mailto: forstek.co@gmail.com?subject=Inquiry&body=Hi%20Forstek%2C%20%0A%0AI%20am%20interested%20in%20working%20together%20with%20you.%20I%20want%20to%20make%20...'>
             <EffectButton width={200} height={55} background={purple}>
