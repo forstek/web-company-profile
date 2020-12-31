@@ -13,10 +13,10 @@ import ResponsiveFlex from 'components/Flexbox/ResponsiveFlex'
 import Footer from 'components/Layout/Footer'
 import { OrangeText } from 'components'
 import { purple } from 'constants/color'
-import { 
-  // FaPhone, 
-  FaRegEnvelope, 
-  // FaWhatsapp 
+import {
+  // FaPhone,
+  FaRegEnvelope
+  // FaWhatsapp
 } from 'react-icons/fa'
 
 const Section = styled.div`
