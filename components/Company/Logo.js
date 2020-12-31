@@ -24,6 +24,7 @@ import logo from 'images/forstek-logo.svg'
 // }
 
 const Logo = ({ size }) => {
+  console.log('env: ', process.env.NODE_ENV)
   return <img src={logo} width='200px' />
 }
 

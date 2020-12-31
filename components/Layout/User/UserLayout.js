@@ -3,8 +3,8 @@ import Router from 'next/router'
 import { connect } from 'react-redux'
 import Head from 'next/head'
 import Sidebar from '../User/Sidebar'
-import 'styles/Content.css'
-import 'styles/Sidebar.css'
+import './content.module.css'
+import './sidebar.module.css'
 
 const UserLayout = ({ children, pageHeader, auth }) => {
   const handleRouteChange = url => {
