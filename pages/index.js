@@ -146,6 +146,7 @@ const Index = () => (
         <ProjectItem name='Todo list app' link='http://tremind.herokuapp.com/' src='https://static.wixstatic.com/media/7d888c_0e4adcbd957846ffa2d6638ce20e0045~mv2.png/v1/fill/w_200,h_131,al_c,q_80,usm_0.66_1.00_0.01/Screenshot%20from%202019-09-24%2014-34-08.webp' />
         <ProjectItem name='Form builder app [SG] (no longer available)' link='https://bistrip.herokuapp.com/' src='https://static.wixstatic.com/media/7d888c_f622f36c53694e3b9b7bd4df7b4fb669~mv2.png/v1/fill/w_203,h_131,al_c,q_80,usm_0.66_1.00_0.01/Screenshot%20from%202019-09-24%2014-34-47.webp' />
         <ProjectItem name='Masjid web [ID]' link='https://masjid-qs.surge.sh' src='https://drive.google.com/uc?export=view&id=1HSaw-r_YKg-vSXYd_M8cPx8N1Mtwlc3D' />
+        <ProjectItem name='Whatsapp stranger' link='https://wanger.surge.sh/' src='https://drive.google.com/uc?export=view&id=1AbGSdiOmb7ZI5U3BjA6GslwnlE98Xy-u' />
         <ProjectItem name='Readings' link='https://readings.surge.sh/' src='https://drive.google.com/uc?export=view&id=13MjmzqgPAhg7iIynpnoFPW03t85tT1Iz' />
       </ResponsiveFlex>
       <Paragraph style={{ fontSize: '1rem' }}>Please open these websites from desktop browser for best experience.</Paragraph>
