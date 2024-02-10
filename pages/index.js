@@ -133,21 +133,21 @@ const Index = () => (
       <Headline>Our Works</Headline>
       <Paragraph style={{ fontSize: '1.3rem', marginBottom: '48px' }}>We have worked with <OrangeText text='clients' /> from different <OrangeText text='countries' />. We craft the <OrangeText text='best' /> version of their <OrangeText text='product' />.</Paragraph>
       <ResponsiveFlex breakPoint='300px'>
-        <ProjectItem name='Time tracker with screenshots' link='https://bit.ly/timy_app2' src='https://drive.google.com/uc?export=view&id=14WFa7lQYJlOgBhgkpNci5wkGruwYvXGh' />
-        <ProjectItem name='Meeting with whiteboard' link='https://bit.ly/ebuxy_app' src='https://drive.google.com/uc?export=view&id=1k7Cl1ctlp6PDjzVQCcklHF4Ggdn264E0' />
-        <ProjectItem name='API load testing' link='https://bit.ly/firem_app' src='https://drive.google.com/uc?export=view&id=1qG3F74Sd4lVKzGB-7-a-VGbfPduVJMo-' />
+        <ProjectItem name='Time tracker with screenshots' link='https://bit.ly/timy_app2' src='https://drive.google.com/thumbnail?id=14WFa7lQYJlOgBhgkpNci5wkGruwYvXGh' />
+        <ProjectItem name='Meeting with whiteboard' link='https://bit.ly/ebuxy_app' src='https://drive.google.com/thumbnail?id=1k7Cl1ctlp6PDjzVQCcklHF4Ggdn264E0' />
+        <ProjectItem name='API load testing' link='https://bit.ly/firem_app' src='https://drive.google.com/thumbnail?id=1qG3F74Sd4lVKzGB-7-a-VGbfPduVJMo-' />
         <ProjectItem name='Messaging app [SG]' link='https://web.voiceoverping.net' src='https://static.wixstatic.com/media/7d888c_b2cc77329b1a4d75b55d1135f033061e~mv2.png/v1/fill/w_262,h_167,al_c,q_80,usm_0.66_1.00_0.01/Screenshot%20from%202019-09-24%2014-22-53.webp' />
-        <ProjectItem name='PTT SDK Open Source [SG]' link='https://opensource.voiceping.info' src='https://drive.google.com/uc?export=view&id=1h8XOjOp9VO0C-xRhGLEaQv9b67bc70j0' />
-        <ProjectItem name='Personalized outreach [DE]' link='https://app.creatext.ai' src='https://drive.google.com/uc?export=view&id=1QiAU5SG396uVXIV7dgmVr9En9sjgnWaG' />
-        <ProjectItem name='Real estate sales [DE]' link='https://app.reo.so' src='https://drive.google.com/uc?export=view&id=1u-dOzmLjl_T8iNXE05R-EOQoA7krhJ8A' />
+        <ProjectItem name='PTT SDK Open Source [SG]' link='https://opensource.voiceping.info' src='https://drive.google.com/thumbnail?id=1h8XOjOp9VO0C-xRhGLEaQv9b67bc70j0' />
+        <ProjectItem name='Personalized outreach [DE]' link='https://app.creatext.ai' src='https://drive.google.com/thumbnail?id=1QiAU5SG396uVXIV7dgmVr9En9sjgnWaG' />
+        <ProjectItem name='Real estate sales [DE]' link='https://app.reo.so' src='https://drive.google.com/thumbnail?id=1u-dOzmLjl_T8iNXE05R-EOQoA7krhJ8A' />
         <ProjectItem name='Notes app' link='https://notemi.surge.sh/' src='https://static.wixstatic.com/media/7d888c_7c48b53bf8a84e40a8ed9ea8df6f16a5~mv2.png/v1/fill/w_197,h_125,al_c,q_80,usm_0.66_1.00_0.01/Screenshot%20from%202019-09-24%2014-32-02.webp' />
         <ProjectItem name='Software management app [CH] (no longer available)' link='https://app.lekka.cloud/' src='https://static.wixstatic.com/media/7d888c_f90512f1a8a34b98a3905e6d1e8b7b60~mv2.png/v1/fill/w_200,h_125,al_c,q_80,usm_0.66_1.00_0.01/Screenshot%20from%202019-09-24%2014-27-53.webp' />
         <ProjectItem name='Matchmaking web [ID]' link='https://satukancinta.com/' src='https://static.wixstatic.com/media/7d888c_0b3cfcc859f54786856359a322cfd32f~mv2.png/v1/fill/w_203,h_125,al_c,q_80,usm_0.66_1.00_0.01/Screenshot%20from%202019-09-24%2014-28-57.webp' />
         <ProjectItem name='Todo list app' link='http://tremind.herokuapp.com/' src='https://static.wixstatic.com/media/7d888c_0e4adcbd957846ffa2d6638ce20e0045~mv2.png/v1/fill/w_200,h_131,al_c,q_80,usm_0.66_1.00_0.01/Screenshot%20from%202019-09-24%2014-34-08.webp' />
         <ProjectItem name='Form builder app [SG] (no longer available)' link='https://bistrip.herokuapp.com/' src='https://static.wixstatic.com/media/7d888c_f622f36c53694e3b9b7bd4df7b4fb669~mv2.png/v1/fill/w_203,h_131,al_c,q_80,usm_0.66_1.00_0.01/Screenshot%20from%202019-09-24%2014-34-47.webp' />
-        <ProjectItem name='Masjid web [ID]' link='https://masjid-qs.surge.sh' src='https://drive.google.com/uc?export=view&id=1HSaw-r_YKg-vSXYd_M8cPx8N1Mtwlc3D' />
-        <ProjectItem name='Whatsapp stranger' link='https://wanger.surge.sh/' src='https://drive.google.com/uc?export=view&id=1AbGSdiOmb7ZI5U3BjA6GslwnlE98Xy-u' />
-        <ProjectItem name='Readings' link='https://readings.surge.sh/' src='https://drive.google.com/uc?export=view&id=13MjmzqgPAhg7iIynpnoFPW03t85tT1Iz' />
+        <ProjectItem name='Masjid web [ID]' link='https://masjid-qs.surge.sh' src='https://drive.google.com/thumbnail?id=1HSaw-r_YKg-vSXYd_M8cPx8N1Mtwlc3D' />
+        <ProjectItem name='Whatsapp stranger' link='https://wanger.surge.sh/' src='https://drive.google.com/thumbnail?id=1AbGSdiOmb7ZI5U3BjA6GslwnlE98Xy-u' />
+        <ProjectItem name='Readings' link='https://readings.surge.sh/' src='https://drive.google.com/thumbnail?id=13MjmzqgPAhg7iIynpnoFPW03t85tT1Iz' />
       </ResponsiveFlex>
       <Paragraph style={{ fontSize: '1rem' }}>Please open these websites from desktop browser for best experience.</Paragraph>
       <ResponsiveFlex breakPoint='300px'>
